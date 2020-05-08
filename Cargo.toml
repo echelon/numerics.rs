@@ -1,0 +1,22 @@
+[package]
+name = "numerics"
+version = "0.0.1"
+edition = "2018"
+description = "Numerics turns integer values into English words."
+keywords = ["convert", "digit", "english", "number"]
+authors = [ 
+  "Brandon Thomas <bt@brand.io>",
+  "Brandon Thomas <echelon@gmail.com>",
+]
+license = "BSD-4-Clause"
+repository = "https://github.com/echelon/numerics.rs"
+documentation = "https://docs.rs/numerics"
+readme = "README.md"
+
+[badges]
+maintenance = { status = "passively-maintained" }
+travis-ci = { repository = "echelon/numerics.rs" }
+codecov = { repository = "echelon/numerics.rs", service = "github" }
+
+[dependencies]
+num = "0.2.1"
